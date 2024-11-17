@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8d6c78e91b40cd4dbd1f7242ae6a2b8, type: 3}
+  m_Name: StorageLevel3
+  m_EditorClassIdentifier: 
+  Name: Storage Level 3
+  Price: 85
+  Strength: 20
+  MineralsLimit: 4000
+  Minerals: 0
