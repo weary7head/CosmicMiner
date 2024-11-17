@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Repairer", menuName = "Modules/Repairer")]
-public class RepairerScriptableObject : ModuleData
+public class RepairerData : ModuleData
 {
     public int StrengthRecoveryAmount;
     public int EnergyConsumptionPerRecovery;
