@@ -3,8 +3,8 @@ public class Gun : Module
     private readonly int _damage;
     private readonly int _energyConsumptionPerShot;
 
-    public Gun(string name, int price, int strength, int level, int damage, int energyConsumptionPerShot)
-        : base(name, price, strength, level)
+    public Gun(string name, int price, int durability, int level, int damage, int energyConsumptionPerShot)
+        : base(name, price, durability, level)
     {
         _damage = damage;
         _energyConsumptionPerShot = energyConsumptionPerShot;

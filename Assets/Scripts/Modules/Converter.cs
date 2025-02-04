@@ -3,8 +3,8 @@ public class Converter : Module
     private readonly int _energyCreationPerConversion;
     private readonly int _mineralsConsumptionPerConversion;
     
-    public Converter(string name, int price, int strength, int level, int energyCreationPerConversion, int mineralsConsumptionPerConversion)
-        : base(name, price, strength, level)
+    public Converter(string name, int price, int durability, int level, int energyCreationPerConversion, int mineralsConsumptionPerConversion)
+        : base(name, price, durability, level)
     {
         _energyCreationPerConversion = energyCreationPerConversion;
         _mineralsConsumptionPerConversion = mineralsConsumptionPerConversion;

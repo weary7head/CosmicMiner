@@ -3,8 +3,8 @@ public class Battery : Module
     private readonly int _energyLimit;
     private int _currentEnergyAmount;
 
-    public Battery(string name, int price, int strength, int level, int energyLimit)
-        : base(name, price, strength, level)
+    public Battery(string name, int price, int durability, int level, int energyLimit)
+        : base(name, price, durability, level)
     {
         _energyLimit = energyLimit;
         _currentEnergyAmount = _energyLimit;

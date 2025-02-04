@@ -3,8 +3,8 @@ public class Collector : Module
     private readonly int _energyConsumptionPerCollection;
     private readonly int _mineralsCollectedPerFlight;
 
-    public Collector(string name, int price, int strength, int level, int energyConsumptionPerCollection, int mineralsCollectedPerFlight)
-        : base(name, price, strength, level)
+    public Collector(string name, int price, int durability, int level, int energyConsumptionPerCollection, int mineralsCollectedPerFlight)
+        : base(name, price, durability, level)
     {
         _energyConsumptionPerCollection = energyConsumptionPerCollection;
         _mineralsCollectedPerFlight= mineralsCollectedPerFlight;

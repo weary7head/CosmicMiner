@@ -4,8 +4,8 @@ public class Repairer : Module
     private readonly int _durationInSeconds;
     private readonly int _strengthRecoveryAmount;
 
-    public Repairer(string name, int price, int strength, int level, int energyConsumptionPerRecovery, int durationInSeconds, int strengthRecoveryAmount)
-        : base(name, price, strength, level)
+    public Repairer(string name, int price, int durability, int level, int energyConsumptionPerRecovery, int durationInSeconds, int strengthRecoveryAmount)
+        : base(name, price, durability, level)
     {
         _energyConsumptionPerRecovery = energyConsumptionPerRecovery;
         _durationInSeconds = durationInSeconds;
